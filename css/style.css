@@ -1,0 +1,182 @@
+.wrapper {
+   margin: 0 auto;
+   width: 100%;
+   background-color: #FEFFBE;
+}
+
+body {
+   background-image: url(../images/ornamente.jpg);
+}
+
+.menu {
+   margin: 0 auto;
+   width: 100%;
+   background-color: #350606;
+   overflow: auto;
+}
+
+.menu a {
+   float: left;
+   text-align: center;
+   text-decoration: none;
+   font-family: arial;
+   width: 14%;
+   padding: 12px 0;
+   color: #7D8175;
+   font-size: 22px;
+}
+
+.menu a:hover {
+   color: #B84E52;
+}
+
+.text {
+   width: 100%;
+   color: #350606;
+}
+
+.text h1 {
+   padding: 30px 30px 20px;
+   font-size: 50px;
+   line-height: 44px;
+}
+
+.text p {
+   padding: 0px 30px 20px;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.img {
+   float: left;
+   padding:0 30px;
+}
+
+.img-table {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+   .wrapper {
+      margin: 0 auto;
+      width: 100%;
+      background-color: #FEFFBE;
+   }
+   
+   body {
+      background-image: url(../images/ornamente.jpg);
+   }
+   
+   .menu {
+      margin: 0 auto;
+      width: 100%;
+      background-color: #350606;
+      overflow: auto;
+   }
+
+   .menu a {
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      font-family: arial;
+      width: 14%;
+      padding: 12px 0;
+      color: #7D8175;
+      font-size: 22px;
+   }
+
+   .menu a:hover {
+      color: #B84E52;
+   }
+   
+   .text {
+      width: 100%;
+      color: #350606;
+   }
+   
+   .text h1 {
+      padding: 30px 30px 20px;
+      font-size: 30px;
+      line-height: 44px;
+   }
+   
+   .text p {
+      padding: 0px 30px 20px;
+      font-size: 18px;
+      line-height: 24px;
+   }
+
+   .img {
+      float: left;
+      padding:0 30px;
+   }
+
+   .img-table {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+@media only screen and (min-width: 1000px) {
+   .wrapper {
+      margin: 0 auto;
+      width: 1000px;
+      background-color: #FEFFBE;
+   }
+   
+   body {
+      background-image: url(../images/ornamente.jpg);
+   }
+
+   .menu {
+      margin: 0 auto;
+      width: 1000px;
+      background-color: #350606;
+      overflow: auto;
+   }
+
+   .menu a {
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      font-family: arial;
+      width: 14%;
+      padding: 12px 0;
+      color: #7D8175;
+      font-size: 22px;
+   }
+
+   .menu a:hover {
+      color: #B84E52;
+   }
+   
+   .text {
+      color: #350606;
+   }
+   
+   .text h1 {
+      padding: 20px 0px 0px;
+      font-size: 30px;
+      line-height: 44px;
+   }
+   
+   .text p {
+      padding: 0px 30px 20px;
+      font-size: 20px;
+      line-height: 24px;
+   }
+
+   .img {
+      float: left;
+      padding:0 30px;
+   }
+
+   .img-table {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
