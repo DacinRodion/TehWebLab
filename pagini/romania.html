@@ -29,13 +29,23 @@
          învecinează cu Bulgaria la sud, Serbia la sud-vest, Ungaria la
          nord-vest, Ucraina la nord și est și Republica Moldova la est, iar
          țărmul Mării Negre se găsește la sud-est. Capitala este <a href="capitala.html">București</a>.</p>
-      <div style="padding: 0 30px 10px;">
-         <button
-            onclick="document.getElementById('imagine1').style.display='none', document.getElementById('imagine2').style.display='none'">Ascunde
-            imaginile</button>
-         <button
-            onclick="document.getElementById('imagine1').style.display='block', document.getElementById('imagine2').style.display='block'">Arata
-            imaginile</button>
+
+      <script>
+         function myFunction() {
+            var x = document.getElementById('imagine1');
+            var y = document.getElementById('imagine2');
+            if (x.style.display === "none" && y.style.display === "none") {
+               x.style.display = "block";
+               y.style.display = "block";
+            } else {
+               x.style.display = "none";
+               y.style.display = "none";
+            }
+         }
+      </script>
+
+      <div style="padding: 0 60px 20px;">
+         <button onclick="myFunction()">Ascunde/Afișează imaginile</button>
       </div>
       <div class="img">
          <a href="drapel.html"><img id="imagine1" class="img" src="../images/drapel.png" alt="Drapelul României"
