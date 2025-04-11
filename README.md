@@ -1,2 +1,2 @@
 # TehWebLab
- Lucrari de laborator la Tehnologii Web
+ Lucrari de laborator la Tehnologii Web.
